@@ -1,5 +1,6 @@
 ### server_byte.py
 
+```
 $ python server_byte.py 
 b'print("Hello, world!")\n'
 <class 'bytes'>
@@ -13,9 +14,11 @@ $ python client_str.py
 <_io.TextIOWrapper name='simple.py' mode='r' encoding='UTF-8'>
 $ python client_byte.py 
 <_io.BufferedReader name='simple.py'>
+```
 
 ### server_str.py
 
+```
 $ python server_str.py 
 b'print("Hello, world!")\n'
 <class 'bytes'>
@@ -29,9 +32,11 @@ Traceback (most recent call last):
   File "server_str.py", line 14, in post
     f.write(program_content)
 TypeError: write() argument must be str, not bytes
+```
 
 ### server_byte_to_str.py
 
+```
 $ python server_byte_to_str.py 
 b'print("Hello, world!")\n'
 <class 'bytes'>
@@ -40,4 +45,4 @@ simple.py
 print("Hello, world!")
 
 <class 'str'>
-
+```
